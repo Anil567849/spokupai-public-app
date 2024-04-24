@@ -1,0 +1,57 @@
+.fullHeightWidthWrapper{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.headingContainer{
+    width: 40vw; 
+}
+
+
+.formContainer{
+    height: auto;
+    width: 40vw;
+}
+
+
+.captcha{
+    margin: 20px 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .formContainer{
+        width: 60vw;
+    }
+    .headingContainer{
+        width: 60vw; 
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .formContainer{
+        width: 80vw;
+    }
+    .headingContainer{
+        width: 80vw; 
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .formContainer{
+        width: 90vw;
+    }
+    .headingContainer{
+        width: 90vw; 
+    }
+
+    /* use this code to change the size of captcha element. there is no other way to change size; */
+    .captcha{
+        transform:scale(0.77);
+        transform-origin:0 0;
+    }
+}

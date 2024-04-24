@@ -1,0 +1,39 @@
+
+.container{
+    height: 100%;
+    width: 100vw;
+    /* border: 2px solid red; */
+    margin-bottom: 4rem;
+}
+
+.heading{
+    text-align: center;
+}
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    column-gap: 1%;
+    row-gap: 5%;
+    width: 100vw;
+    justify-content: center;
+  }
+
+
+
+  @media screen and (max-width: 500px) {
+    
+        .cardContainer {
+            grid-template-columns: 32% 32% 32%;
+        }
+
+  }
+
+  @media screen and (max-width: 400px) {
+    
+        .cardContainer {
+            grid-template-columns: 48% 48%;
+            row-gap: 1%;
+        }
+
+  }

@@ -1,0 +1,22 @@
+
+.contentContainer{
+    padding: 0 10rem;
+}
+
+
+
+@media screen and (max-width: 776px){
+    .contentContainer{
+        padding: 0 5rem;
+    }
+}
+@media screen and (max-width: 645px){
+    .contentContainer{
+        padding: 0 2rem;
+    }
+}
+@media screen and (max-width: 385px){
+    .contentContainer{
+        padding: 0 1rem;
+    }
+}

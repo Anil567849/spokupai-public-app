@@ -1,0 +1,14 @@
+
+
+.card{
+    /* height: 150px; */
+    width: 270px;
+    border-radius: 30px !important;
+}
+
+
+@media screen and (max-width: 330px){
+    .card{
+        width: 80vw;
+    }
+}
